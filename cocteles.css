@@ -1,0 +1,66 @@
+body{
+    background-color: silver;
+}
+
+
+
+
+#cocktailResults {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Espacio entre los recuadros */
+  }
+  
+/* Estilo para cada recuadro de producto */
+.cocktail {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 300px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    background-color: rgb(249, 127, 83);
+}
+
+
+.cocktail img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.cocktail h2 {
+    font-size: 18px;
+    margin-top: 0;
+}
+
+
+.cocktail p:nth-child(3) {
+        font-weight: bold;
+}
+
+
+.cocktail p:last-child {
+    margin-bottom: 0;
+}
+
+
+.form-control {
+    width: 100%;
+    max-width: 300px; 
+    padding: 10px;
+    margin-bottom: 10px; 
+}
+
+
+.btn-primary {
+    padding: 10px 20px;
+    background-color: #007bff; 
+    color: white; 
+    border: none;
+    cursor: pointer;
+}
+
+
+.btn-primary:hover {
+    background-color: #0056b3; 
+}
+  

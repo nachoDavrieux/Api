@@ -1,9 +1,4 @@
 
-header {
-    background-color: rgb(0, 0, 0); /* Cambia "red" al color que desees */
-    margin: 0; 
-    padding: 0; 
-}
 
 h1{
     text-align: center;
@@ -56,4 +51,6 @@ a[href^="#"] {
     float: right;
     padding: 2%;
 }
+
+
 
